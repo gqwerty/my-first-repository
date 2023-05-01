@@ -30,12 +30,7 @@ h1{
           
         }
     @media(max-width: 320px){
-      #grid{display: block;
-        grid-template-columns: 150px 1fr;
-      }
-      #grid ol{border-right: none;}
-      h1{border-bottom: none;}
-      .list{text-align: center;}
+      list{text-align: center;}
       
     }
      
