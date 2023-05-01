@@ -27,8 +27,15 @@ h1{
           }
           #grid ol{border-right: none;}
           h1{border-bottom: none;}
+          
         }
     @media(max-width: 320px){
-           .list{text-align: center;}
+      #grid{display: block;
+        grid-template-columns: 150px 1fr;
+      }
+      #grid ol{border-right: none;}
+      h1{border-bottom: none;}
+      .list{text-align: center;}
+      
     }
      
